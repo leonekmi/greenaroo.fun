@@ -52,9 +52,9 @@ nav .links a {
 header {
     display: flex;
     align-items: center;
-    min-height: 750px;
+    min-height: 600px;
     width: 75vw;
-    margin: 0 auto;
+    margin: 0 auto 200px;
     position: relative;
     color: white;
 }
@@ -75,6 +75,8 @@ header a {
     border: none;
     padding: .5em 3em;
     border-radius: 24px;
+    margin-top: .5em;
+    display: inline-block;
 }
 
 @keyframes boing {
@@ -114,10 +116,12 @@ section {
 
 section > p {
     font-size: 1.1em;
+    margin-bottom: 4em;
 }
 
 section:last-of-type {
     min-height: 40vh;
+    margin-top: -5rem;
 }
 
 div.yellow-circle {
@@ -190,7 +194,11 @@ div.map > iframe {
 
 div.map > div {
     text-align: start;
-    font-size: 1.5em;
+    font-size: 24px;
+}
+
+div.map > div > p {
+    font-weight: bold;
 }
 
 div.map div.input-container {
@@ -203,7 +211,7 @@ div.input-container input {
     border: solid 1px #8E8D8D;
     padding: .5em 1em;
     border-radius: 48px;
-    font-size: 1em;
+    font-size: .75em;
 }
 
 div.input-container img {
