@@ -10,10 +10,10 @@
 </head>
 <body>
 	<nav>
-		<h1>
-			<img src="" alt="">
+		<a href="#">
+			<img src="img/logo.svg" alt="Logo">
 			Greenaroo
-		</h1>
+		</a>
 		<div class="links">
 			<a href="#decouvrir">Découvrir</a>
 			<a href="#ou">Où&nbsp;?</a>
@@ -22,12 +22,14 @@
 		</div>
 	</nav>
 	<header>
+		<img src="img/zig-zag.svg" alt="Zig Zag" class="zig-zag">
 		<div>
 			<h2>Deviens un kangourou&nbsp;!</h2>
 			<p>Découvre le tout nouveau bâton sauteur à deux boules&nbsp;!</p>
-			<button>Boing&nbsp;!</button>
+			<a href="#decouvrir">Boing&nbsp;!</a>
 		</div>
-		<img src="img/greenaroo.jpg" alt="Rendu 3D">
+		<img src="img/greenaroo.png" alt="Rendu 3D">
+		<img src="img/star.svg" alt="Étoile" class="star">
 	</header>
 	<section class="who" id="decouvrir">
 		<h2>Découvrir</h2>
@@ -39,25 +41,29 @@
 			</div>
 			<div>
 				<img src="img/earth-globe.png" alt="Globe terrestre">
-				<p>tkt c ekologik</p>
+				<p>Aucun composant éléctronique, tout se passe entre toi et Greenaroo.</p>
 			</div>
 			<div>
 				<img src="img/forest.png" alt="Forêt">
 				<p>Déplace toi dans des lieux publics à large surface, comme les zoos ou les centres aérés.</p>
 			</div>
 		</div>
+		<div class="yellow-circle"></div>
 	</section>
 	<section class="where" id="ou">
 		<h2>Où trouver le Greenaroo&nbsp;?</h2>
 		<p>Nous avons pour intention de démocratiser une façon amusante de se déplacer dans des lieux publics à large surface, comme les zoos, les centres aérés. Si le produit rencontre un public, nous allons étendre le produit aux particuliers.</p>
 		<div class="map">
-			<!-- embed map -->
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10833.646565008341!2d1.35309!3d47.2476534!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9cfdfb800cb359b!2sZooParc%20de%20Beauval!5e0!3m2!1sfr!2sfr!4v1653115428863!5m2!1sfr!2sfr" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 			<div>
 				<p>Trouve un Greenaroo près de chez toi&nbsp;!</p>
-				<img src="" alt="">
-				<input type="text">
+				<div class="input-container">
+					<img src="img/placeholder.png" alt="Marqueur d'emplacement">
+					<input type="text" placeholder="Entrez votre ville">
+				</div>
 			</div>
 		</div>
+		<img src="img/orange-triangle.svg" alt="Décoration" class="orange-triangle">
 	</section>
 	<section class="rules" id="regles">
 		<h2>Les règles du club Greenaroo</h2>
@@ -81,24 +87,30 @@
 		</div>
 	</section>
 	<section class="contact" id="contact">
-		<div>
-			<div>
-				<img src="" alt="">
-				<p></p>
-			</div>
-			<div>
-				<img src="" alt="">
-				<p></p>
-			</div>
-			<div>
-				<img src="" alt="">
-				<p></p>
-			</div>
+		<h2>Rejoins-nous</h2>
+		<div class="img-gallery large">
+			<a href="#">
+				<img src="img/instagram.png" alt="Logo Instagram">
+				<p>Instagram</p>
+			</a>
+			<a href="#">
+				<img src="img/facebook.png" alt="Logo Facebook">
+				<p>Facebook</p>
+			</a>
+			<a href="#">
+				<img src="img/twitter.png" alt="Logo Twitter">
+				<p>Twitter</p>
+			</a>
 			<div class="e-mail">
-				<img src="" alt="">
-				<p></p>
+				<img src="img/laptop.png" alt="Ordinateur portable">
+				<p>Pose tes questions à <a href="mailto:contact@greenaroo.fun">contact@greenaroo.fun</a>.</p>
 			</div>
 		</div>
 	</section>
+	<footer>
+		<p><a href="#">Mentions légales</a></p>
+		<hr>
+		<p>Ce site est un projet d'études, Greenaroo ne sera <em>a priori</em> jamais un produit en vente.</p>
+	</footer>
 </body>
 </html>
